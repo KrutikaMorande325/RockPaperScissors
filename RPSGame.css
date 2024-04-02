@@ -7,11 +7,9 @@
 }
 
 h1{
-    /* background-color: rgb(28, 28, 88); */
+   
     background-color: rgb(22, 22, 83);
     color: white;
-    /* height: 70px;
-    line-height: 70px; */
     height: 5rem;
     line-height: 5rem;
 }
@@ -19,7 +17,6 @@ h1{
 .choice{
     height: 165px;
     width: 165px;
-    /* border-radius: 50%; */
     border-radius: 50%;
     justify-content: center;
     align-items: center;
@@ -27,7 +24,6 @@ h1{
 }
 
 .choice:hover{
-    /* opacity: 0.5; */
     cursor: pointer;
     background-color: rgb(22, 22, 83);
     
@@ -41,7 +37,7 @@ img{
 }
 
 .choices{
-    display: flex; /*to bring all images in same line*/
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 3rem;
